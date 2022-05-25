@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+ background-color: #beccf1;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  width: 60%;
+}
+
+#par {
+  padding: .5rem;
+  text-align: center;
+  font-family: "Public sans", sans-serif;
+  font-size: 1.5rem;
+  color: #27407e;
+}
+
+.group-1 {
+  display: flex;
+  justify-content: center;
+  margin: .5rem;
+}
+
+.group-2 {
+  display: flex;
+  font-family: "Public sans", sans-serif;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: .5rem;
+  gap: 2rem;
+}
+
+#button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #beccf1;
+  color: #27407e;
+  border: solid 4px #27407e;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+#status {
+  font-size: 1.5rem;
+  color: #27407e;
+}
+
+footer {
+  background-color: #27407e;
+  font-family: "Public sans", sans-serif;
+  padding: 1.9rem;
+  text-align: center;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: #27407e;
+  color: #fff;  
+}
+
+footer a:hover {
+  color: rgb(155, 83, 93);
+  font-weight: 700;
+}
